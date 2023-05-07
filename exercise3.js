@@ -1,10 +1,10 @@
-function sum1(num1) {
+function twoSum(num) {
   
-  function sum2(num2) {
-    return num1 + num2
+  return function(number) {
+    return num + number
   }
-
-  return sum2(2)
 };
 
-console.log(sum1(4));
+const result = twoSum(5);
+
+console.log(result(3));
